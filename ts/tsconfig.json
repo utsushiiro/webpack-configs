@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "outDir": "./compiled/",
+      // TSのコードをES5に変換
+      "target": "es5",   
+      // TSのModuleをES Modulesに変換
+      // これを指定しないとimport/exportがCommonJSスタイルになりWebpackのTree Shakingが効かなくなる
+      "module": "es2015" 
+    }
+  }
